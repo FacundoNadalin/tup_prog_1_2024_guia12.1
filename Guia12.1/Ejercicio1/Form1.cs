@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ejercicio1.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,16 @@ namespace Ejercicio1
 {
     public partial class Form1 : Form
     {
+        Controlador ejemplo= new Controlador();
         public Form1()
         {
+
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
